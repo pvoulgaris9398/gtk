@@ -1,3 +1,3 @@
 # GTK Widget Toolkit Samples
 
-[getting-started](.\getting-started\doc\notes.md)
+[getting-started](./getting-started/doc/notes.md)
