@@ -1,6 +1,7 @@
 {
     "window.zoomLevel": 2,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.stickyScroll.enabled": false,
     "editor.minimap.autohide": true,
     "files.exclude": {
         "**/bin": true,

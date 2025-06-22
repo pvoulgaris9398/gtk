@@ -1,3 +1,7 @@
+# Visual Studio Specific
+x64/
+*.vcxproj.user
+
 # VS
 .vs/
 
