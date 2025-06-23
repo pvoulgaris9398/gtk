@@ -2,7 +2,11 @@
     "window.zoomLevel": 2,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "editor.stickyScroll.enabled": false,
+<<<<<<< Updated upstream
     "editor.minimap.autohide": true,
+=======
+    "editor.minimap.enabled":false,
+>>>>>>> Stashed changes
     "files.exclude": {
         "**/bin": true,
         "**/obj": true,

@@ -1,5 +1,12 @@
 # GTK Widget Toolkit Sample
 
+## `Sunday, 6/22/25`
+
+- So, I can compile on `mingw64` command-shell, but...
+- The executable doesn't actually run except in a `Git Bash` command-shell \
+(within which I can *NOT* compile)
+- Really freakin' weird.
+
 ## `Sunday, 6/15/25`
 
 - Trying the approach outlined [here](https://www.gtk.org/docs/installations/windows/) for using `MSYS2`
