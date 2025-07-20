@@ -1,12 +1,16 @@
 {
     "window.zoomLevel": 2,
+    "editor.formatOnSave": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "editor.stickyScroll.enabled": false,
-    "editor.minimap.autohide": true,
+    "editor.minimap.enabled": false,
     "files.exclude": {
         "**/bin": true,
         "**/obj": true,
-        "**/.vs":true
+        "**/.vs": true
     },
-
+    "files.associations": {
+        "gtk.h": "c",
+        "glib.h": "c"
+    },
 }

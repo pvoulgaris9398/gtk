@@ -1,5 +1,19 @@
 # GTK Widget Toolkit Sample
 
+## `Sunday, 7/20/25`
+
+```text
+cannot open source file "glib.h" (dependency of "C:\Users\Peter\.vscode\extensions\ms-vscode.cpptools-1.26.3-win32-x64\bin\gtk\gtk.h")
+
+                "C:/gtk/include/gtk-4.0",
+                "C:/gtk/include/pango-1.0/**",
+                "C:/gtk/include/harfbuzz/**",
+                "C:/gtk/include/gdk-pixbuf-2.0/**",
+                "C:/gtk/include/graphene-1.0/**",
+                "C:/gtk/lib/graphene-1.0/include/**"
+
+```
+
 ## `Sunday, 6/15/25`
 
 - Trying the approach outlined [here](https://www.gtk.org/docs/installations/windows/) for using `MSYS2`
@@ -58,7 +72,7 @@ gcc -Wall \
 
 - I wanted to get a minimalist sample setup, with as little tooling as possible and see where it goes
 - Adding `LIB` environment variable didn't seem to do anything
-- Still not working, getting: 
+- Still not working, getting:
 
 ![](2025-06-14-08.jpg)
 

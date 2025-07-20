@@ -9,7 +9,7 @@
                 "/Zi",
                 "/EHsc",
                 "/Fe:",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${fileDirname}/out/${fileBasenameNoExtension}.exe",
                 "${file}"
             ],
             "problemMatcher": [
@@ -21,17 +21,18 @@
         {
             "type": "cppbuild",
             "label": "C/C++: gcc.exe build active file",
-            "command": "C:\\ProgramData\\mingw64\\mingw64\\bin\\gcc.exe",
+            "command": "C:/msys64/mingw64/bin/gcc.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "./getting-started/src/main.c",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "./getting-started/src/main",
+                "-lzmq",
+                "-lczmq",
+                "pkg-config --cflags --libs gtk+-4.0"
             ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
+            "options": {},
             "problemMatcher": [
                 "$gcc"
             ],
