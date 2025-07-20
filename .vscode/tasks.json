@@ -29,8 +29,7 @@
                 "-o",
                 "./getting-started/src/main",
                 "-lzmq",
-                "-lczmq",
-                "pkg-config --cflags --libs gtk+-4.0"
+                "-lczmq"
             ],
             "options": {},
             "problemMatcher": [

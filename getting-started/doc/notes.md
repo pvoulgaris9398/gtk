@@ -2,6 +2,11 @@
 
 ## `Sunday, 7/20/25`
 
+- Able to build with the full `MSYS2` environment
+- Noted that my `git-bash` shell appears to have an incorrect setup (the entries for `gtk-build`)
+
+![](2025-07-20-10.jpg)
+
 ```text
 cannot open source file "glib.h" (dependency of "C:\Users\Peter\.vscode\extensions\ms-vscode.cpptools-1.26.3-win32-x64\bin\gtk\gtk.h")
 
@@ -18,7 +23,7 @@ cannot open source file "glib.h" (dependency of "C:\Users\Peter\.vscode\extensio
 
 - So, I can compile on `mingw64` command-shell, but...
 - The executable doesn't actually run except in a `Git Bash` command-shell \
-(within which I can *NOT* compile)
+  (within which I can _NOT_ compile)
 
 ## `Sunday, 6/15/25`
 

@@ -1,7 +1,7 @@
 {
     "window.zoomLevel": 2,
     "editor.formatOnSave": true,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.defaultProfile.windows":"bash (MSYS2)",
     "editor.stickyScroll.enabled": false,
     "editor.minimap.enabled":false,
     "files.exclude": {
