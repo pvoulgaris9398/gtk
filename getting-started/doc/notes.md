@@ -3,6 +3,7 @@
 ## `Sunday, 7/20/25`
 
 - Try [this](https://stackoverflow.com/questions/76009202/gtk4-c-language-vs-code)
+- [This](https://stdin.top/posts/gtk4-on-windows/) looks very promising too)
 
 ```bash
         "-g",
