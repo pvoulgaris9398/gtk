@@ -2,6 +2,47 @@
 
 ## `Sunday, 7/20/25`
 
+```bash
+        "-g",
+        "-pthread",
+        "-IC:/msys64/ucrt64/include/gtk-4.0",
+        "-IC:/msys64/ucrt64/include/pango-1.0",
+        "-IC:/msys64/ucrt64/include/fribidi",
+        "-IC:/msys64/ucrt64/include/harfbuzz",
+        "-IC:/msys64/ucrt64/include/gdk-pixbuf-2.0",
+        "-IC:/msys64/ucrt64/include/webp",
+        "-IC:/msys64/ucrt64/include/cairo",
+        "-IC:/msys64/ucrt64/include/freetype2",
+        "-IC:/msys64/ucrt64/include/libpng16",
+        "-IC:/msys64/ucrt64/include/pixman-1",
+        "-IC:/msys64/ucrt64/include/graphene-1.0",
+        "-IC:/msys64/ucrt64/lib/graphene-1.0/include",
+        "-IC:/msys64/ucrt64/include/glib-2.0",
+        "-IC:/msys64/ucrt64/lib/glib-2.0/include",
+        "${file}",
+        "-LC:/msys64/ucrt64/bin/../lib",
+        "-lgtk-4",
+        "-lpangocairo-1.0",
+        "-lpangowin32-1.0",
+        "-lpango-1.0",
+        "-lgdk_pixbuf-2.0",
+        "-lcairo-gobject",
+        "-lcairo",
+        "-lharfbuzz",
+        "-lvulkan-1",
+        "-lgraphene-1.0",
+        "-lgio-2.0",
+        "-lgobject-2.0",
+        "-lglib-2.0",
+        "-lintl",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}"
+        ```
+
+- Found [this](https://stackoverflow.com/questions/67389815/pkg-config-for-vs-code)
+- And [this](https://stackoverflow.com/questions/44576801/how-to-use-pkg-config-gtkmm-3-0-cflags-libs-in-the-visual-studio-code/49771627#49771627)
+- And [this](https://stackoverflow.com/questions/58751821/how-to-configure-vscode-for-gtk3-for-intellisense-build-debug-and-g)
+
 - Able to build with the full `MSYS2` environment
 - Noted that my `git-bash` shell appears to have an incorrect setup (the entries for `gtk-build`)
 

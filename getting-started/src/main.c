@@ -1,5 +1,4 @@
-#include <gtk-4.0/gtk/gtk.h>
-#include <gtk-4.0/gtk/gtkwidget.h>
+#include <gtk/gtk.h>
 
 static void
 print_hello(GtkWidget *widget,
