@@ -2,6 +2,8 @@
 
 ## `Sunday, 7/20/25`
 
+- Try [this](https://stackoverflow.com/questions/76009202/gtk4-c-language-vs-code)
+
 ```bash
         "-g",
         "-pthread",
