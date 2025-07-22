@@ -1,11 +1,35 @@
 # GTK Widget Toolkit Sample
 
+## `Tuesday, 7/22/25`
+
+- In the end, didn't need any of this stuff from yesterday
+- I was able to hard-code the include paths, library paths, etc. in:
+- `c_cpp_properites.json` to enable intellisense and...
+- `tasks.json` to enable the default build
+- It looks great, as a first start:
+
+!
+
+## `Monday, 7/21/25`
+
+- The approach noted [here](https://stdin.top/posts/gtk4-on-windows/)
+- To put the output of the `pkg-config --cflags --libs gtk4` \
+  command into an environment variable `GTK4PKGCONFIG`:
+- Works for me but only from a `MSYS2 UCRT64` command-shell:
+- The `-mwindows` parameter appears to make the executable stand-alone \
+  and not start from a command prompt (that stays open)
+
+```bash
+gcc -o main main.c $GTK4PKGCONFIG
+gcc -mwindows -o main main.c $GTK4PKGCONFIG
+```
+
 ## `Sunday, 7/20/25`
 
 - Try [this](https://stackoverflow.com/questions/76009202/gtk4-c-language-vs-code)
 - [This](https://stdin.top/posts/gtk4-on-windows/) looks very promising too)
 
-```bash
+````bash
         "-g",
         "-pthread",
         "-IC:/msys64/ucrt64/include/gtk-4.0",
@@ -61,7 +85,7 @@ cannot open source file "glib.h" (dependency of "C:\Users\Peter\.vscode\extensio
                 "C:/gtk/include/graphene-1.0/**",
                 "C:/gtk/lib/graphene-1.0/include/**"
 
-```
+````
 
 ## `Sunday, 6/22/25`
 

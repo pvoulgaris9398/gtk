@@ -7,7 +7,9 @@
   "files.exclude": {
     "**/bin": true,
     "**/obj": true,
-    "**/.vs": true
+    "**/.vs": true,
+    "out": true,
+    ".gitignore": true
   },
   "files.associations": {
     "gtk.h": "c",
