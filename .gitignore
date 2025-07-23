@@ -5,6 +5,9 @@ x64/
 # VS
 .vs/
 
+# Build/Output Directories
+/out
+
 # Prerequisites
 *.d
 

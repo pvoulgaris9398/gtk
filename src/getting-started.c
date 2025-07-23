@@ -18,7 +18,7 @@ activate(GtkApplication *app,
 
   window = gtk_application_window_new(app);
   gtk_window_set_title(GTK_WINDOW(window), "GTK Starter Sample");
-  gtk_window_set_default_size(GTK_WINDOW(window), 200, 200);
+  gtk_window_set_default_size(GTK_WINDOW(window), 800, 400);
 
   textbox = gtk_entry_new();
 
